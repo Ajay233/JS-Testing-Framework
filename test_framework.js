@@ -1,5 +1,3 @@
-
-
 function describe(description, func){
   console.log(description);
   func();
@@ -35,15 +33,3 @@ var matchers = function matchers(exp){
     }
   };
 };
-
-
-function add(a, b){
-  return a + b;
-};
-
-describe('#Add', function(){
-  it('can add two numbers', function(){
-    result = add(4, 3);
-    expect(result).toEqual(7);
-  });
-});
